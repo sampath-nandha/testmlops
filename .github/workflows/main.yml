@@ -32,9 +32,9 @@ jobs:
         echo "$Greering $First_name. Today is $DAY_OF_WEEK!"
         echo "testvar $testvar"
         echo "testvar ${{ env.testvar }}"
-      env:
-        First_name: Student
-        testvar: values-3
+      #env:
+        #First_name: Student
+        #testvar: values-3
   # This workflow contains a single job called "build"
   # build:
     # The type of runner that the job will run on
